@@ -9,4 +9,18 @@ Experimente um pouco, escrevendo:
 
 print("Oi")
 
-Vamos salvar o programa. Save do menu File.
+Vamos salvar o programa. Clicar no Save do menu File.
+Abrirá uma janela padrão de gravação de arquivos. Escreva teste.py e save.
+Lembre-se sempre de salvar os arquivos utilizando a extensão .py.
+Clique no menu Run ou F5 para executar seu programa.
+Seu programa executará na outra janela do interpretador. Aparecerá RESTART.
+
+2.4 Cuidado ao digitar os seus programas
+
+1. letras maiúsculas e minúsculas são diferentes;
+2. aspas são muito importantes e não devem ser esquecidas. Abra e fecha aspas sempre.
+3. Parênteses não são opcionais em Python.Todo Parêntese aberto deve ser fechado. 
+4. espaços são muito importantes. Não se esqueça disto.
+
+2.5 Primeiros programas
+
