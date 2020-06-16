@@ -4,7 +4,10 @@ Preparando o ambiente
 
 2.2 Usando o interpretador Python (No linux abra o terminal e digite: idle-python3.8 &)
 
-2.3 Editando arquivos (Escolha um editor de textos disponíveis, entre eles, o Vim, VSCode, Pycharm enfim o que você mais gostar); há a opção de utilizar o editor de textos do interpretador. Vá em File, abra a opção New File e aparecerá uma nova janela. Chamaremos a primeira de janela do interpretador, e a segunda de janela de editor de textos.
+2.3 Editando arquivos (Escolha um editor de textos disponíveis, entre eles, o Vim, VSCode, Pycharm enfim o que você mais gostar); 
+há a opção de utilizar o editor de textos do interpretador. 
+Vá em File, abra a opção New File e aparecerá uma nova janela. 
+Chamaremos a primeira de janela do interpretador, e a segunda de janela de editor de textos.
 Experimente um pouco, escrevendo:
 
 print("Oi")
@@ -23,4 +26,14 @@ Seu programa executará na outra janela do interpretador. Aparecerá RESTART.
 4. espaços são muito importantes. Não se esqueça disto.
 
 2.5 Primeiros programas
+
+Vamos aprender o nome de cada função que aparece no programa:
+print - função;
+() - Parênteses;
+"" - aspas;
+Oi - mensagem. 
+
+A função PRINT informa que vamos exibir algo na tela, ou seja, uma mensagem na tela do computador.
+Uma operação de cálculo, pergunta ou mensagem utilizaremos sempre o print.
+
 
