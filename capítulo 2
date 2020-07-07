@@ -128,8 +128,19 @@ Exemplo:
 
 A expressão 1500+(1500*5/100) é equivalente a:
 
-                    1500 + (1500x5)
-                            (100)
+                    1500 + (1500x5)/(100)
 
-                            
+Exercício 2.1 Converta as seguintes expressões matemáticas para que possam ser calculadas usando o Idle Python
+
+10+10*30
+
+4**2/30
+
+(9****+2) * 6-1
+
+Exercício 2.2 Digite a seguinte expressão no interpretador:
+
+10 % 3 * 10 ** 2 + 1 - 10 * 4 / 2
+
+Tente resolver `a mão o exercício. Observe como é importante a ordem das operações. 
 
