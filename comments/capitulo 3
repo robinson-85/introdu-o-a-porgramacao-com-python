@@ -2,3 +2,64 @@ Variáveis e entrada de dados.
 
 3.1 Nomes de variáveis
 
+Em Python variáveis devem iniciar com uma letra,
+podendo conter números e o símbolo sublinha (_).
+
+Exemplos de regras aceitas:
+
+a1 - embora contenha um número, o nome a1 inicia 
+com letras.
+
+velocidade - Nome formado por letras.
+
+salário_médio - O símbolo (_) é permitido e facilita 
+a leitura de nomes grandes.
+
+_b - o sublinhado (_) é aceito em nomes de variáveis, 
+mesmo no início.
+
+Exemplos que não são aceitos:
+
+salário médio - Nomes de variáveis não podem conter 
+espaços brancos.
+
+1a - Nomes de variáveis não podem começar com números.
+
+Atenção!!!!
+A versão 3 permite o uso de acentos em nomes de variáveis, porque a linguagem representa praticamente todas as letras
+dos alfabetos conhecidos.
+
+Variáveis tem outras propriedades, além d enome e conteúdo.
+São as defnições que a variável armazena. 
+Python tem vários tipos de dados, mas as mais conhecidas 
+são os int, float e strings.
+Podem armazenar números e letras, além de valores como 
+verdadeiro e falso.
+
+
+3.2 Variáveis numéricas
+
+Armazenam números inteiros ou de ponto flutuante.
+Os inteiros são aqueles sem parte decimal, como 1,0, -5, 550, -47, 30000.
+Os flutuantes ou decimais são aquele com parte decimal: 1.0, 5.478, 10.478, 30000.4.
+Em Python, e na maioria das linguagens de programação, utilizamos o ponto, e não a vírgula, como separador entre a parte inteira e fracionária de um número. Não utilizamos 
+nada como separador de milhar. Exemplo: 1.000.000(um milhão)
+é escrito 100000. 
+Uma forma de separar é utilizar o sublinhador 
+
+>>> 1_000 # mil
+1000
+
+>>> 1_000_000 # Um milhão
+100000
+
+3.2.1 Representação de valores númericos
+
+
+
+
+
+
+
+
+
