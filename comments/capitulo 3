@@ -426,6 +426,91 @@ BCDEFGH
 
 
 
+3.5 Sequências e tempo. 
+
+Um programa executa linha por linha.
+Se trabalhamos com variáveis, o conteúdo das variáveis pode mudar com o tempo.
+Porque a cada vez que alteramos o valor de uma variável, o valor pode mudar 
+com o tempo.
+
+Observe este código: 
+
+# Programa 3.1 - Exemplo de sequeẽncia e tempo
+
+dívida = 0 
+compra = 100
+dívida = dívida + compra
+compra = 200
+dívida = dívida + compra
+compra = 300
+dívida = dívida + compra
+compra = 02
+print(dívida)
+
+Em resumo a dívida vai aumentando de acordo com a compra.
+
+3.6 Rastreamento
+
+Uma das principais diferenças entre ler um texto e um programa é justamente seguir
+as mudanças de valores de cada variável conforme o programa é executado.
+Um programa não pode ser lido como um simples texto, mas cuidadosamente analisado
+linha a linha.
+Importante: ao fazer um programa é necessário verificar linha a linha os efeitos
+e mudanças causados no valor de cada variável.
+Para prorgamar corretamente, é preciso ser capaz de entender o que cada linha de 
+programa significa e o que produz. Isso é chamado de rastreamento, o que é muito
+eficaz para encontrar erros nos programas que está sendo escrito.
+Uma dica: use lápis e borracha e folha de papel para escrever os programas.
+O rastremento tem que ser feito linha por linha, e não começar a analisar no meio 
+do programa e sim desde o início. 
+
+3.7 Entrada de Dados. 
+
+A melhor coisa para escrever um programa é poder escrever valores para serem utilizados 
+e escrever a solução de um problema e aplicá-la várias vezes. Portanto, precisamos 
+melhorar nossos programas de forma a permitir que novos valores sejam fornecidos 
+durante sua execução, de modo que poderemos executá-los com valores diferentes sem 
+alterar os programas em si.
+
+Entrada de dados = quando o programa recebe dados ou valores por um dispositivo de 
+entrada de dados (como o teclado d computador) ou de um arquivo de discos.
+
+A função input é utilizada para solicitar dados do usuário. 
+
+Exemplo - input
+
+x = input("Digite um número:")
+print(x) 
+
+Que produz a seguinte saída na tela: 
+
+Digite um número: 5
+5
+
+Outro exemplo:
+
+nome = input("Digite seu nome:") #1
+print(f"Você digitou {nome}")
+print(f"Olá, {nome}!")
+
+Em 1 solicitamos a entrada de dados. Depois a mensagem "Digite seu nome:" é exibida, 
+e o programa para até que o usuário pressione a tecla ENTER. Somente então o resto
+do programa é executado. Vejamos a saída de dados quando digitamos João como nome:
+
+Digite seu nome: João 
+Você digitou João 
+Olá, João!
+
+3.7.1 Conversão da entrada de dados
+
+
+
+
+
+
+
+
+
 
 
 =======
