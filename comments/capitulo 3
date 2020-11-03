@@ -503,6 +503,19 @@ Olá, João!
 
 3.7.1 Conversão da entrada de dados
 
+A função input sempre retorna valores do tipo string, ou seja, não importa se digitarmos
+apenas número, o reultado sempre é uma string.
+Vamos utilizar a função int para converter o valor retornado em um número inteiro, e 
+a função float para convertê-lo em um número decimal ou de ponto flutuante.  
+
+Exemplo de um bônus por tempo de serviço:
+
+anos = int(input("Anos de serviço: "))
+valor_por_anos = float(input("Valor por ano: "))
+bônus = anos * valor_por_ano
+print(f"Bônus de R$: {bônus:5.2f}")
+
+
 
 
 
