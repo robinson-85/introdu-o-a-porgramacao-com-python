@@ -515,6 +515,50 @@ valor_por_anos = float(input("Valor por ano: "))
 bônus = anos * valor_por_ano
 print(f"Bônus de R$: {bônus:5.2f}")
 
+3.7.2 Erros comuns
+
+Devemos estar para os erros em nossos programas, principalmente na entrada de dados.
+
+Vejamos:
+
+nome = input("Digite o seu nome")
+idade = int(input("Digite sua idade:"))
+saldo = float(input("Digite o saldo da sua conta bancária:"))
+print(nome) 
+print(idade)
+print(saldo)
+
+Vamos ver o resultado, e o correto é a ausência de erros durante a função input,
+ou durante a conversão do valor retornado pela função. 
+
+Digite o seu nome: João
+Digite a sua idade: 42
+Digite o saldo da sua conta bancária: 15756.34
+João
+42
+15756.34
+
+Outro exemplo de entrada de dados bem sucedida. Inserimos o float, portanto mesmo 
+inserindo 34 o valor foi convertido para 34.0
+
+Digite o seu nome: Maria
+Digite a sua idade: 28
+Digite o saldo da sua conta bancária: 34
+Maria
+28
+34.0
+
+Vejamos agora um exemplo em que há erro durante a entrada de dados:
+
+Digite seu nome: Minduim
+Digite a sua idade: ABC
+Traceback (most recent call last):
+
+Observa que foi digitado letras onde se pedia números. 
+
+Lembre-se também que em Python sempre deve ser digitado ponto e não vírgula.
+
+
 
 
 

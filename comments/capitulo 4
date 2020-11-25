@@ -1,0 +1,42 @@
+Capítulo 4 - Condições
+
+4.1 if
+
+As condições servem para ativar ou não um programa.
+Em Python, a estrutura de decisão é o if. Seu formato é:
+
+if <condição>:
+    bloco verdadeiro
+
+Se a condição for verdadeira será feito algo. 
+
+Exemplo: 
+
+# programa 4.1 - lê dois valores e imprime qual é o maior 
+
+a = int(input("Primeiro valor: "))
+b = int(input("Segundo valor: "))
+if a>b:
+    print("O primeiro valor é o maior!")
+if b>a:
+    print("O segundo valor é o maior!")
+
+Percebe que ao rodar o programa o valor impresso vai depender do número que 
+foi colocado. Podendo imprimir o primeiro ou segundo bloco, o que dependerá
+da entrada dos dados pelo usuário. 
+
+Trívia - Pyhton é uma das poucas linguagens de programação que utiliza o deslocamento
+do texto à direita(recuo) para marcar o início e o fim de um bloco. Outras linguagens
+contam com palavras especiais para isso, como BEGIN e END, em Pascal; ou as famosas 
+chaves ({}), em C e Java. 
+
+4.2 - Faça um programa que seja solicitado a idade do carro do usuário e, em seguida, 
+escreveremos novo se o carro tiver menos de três anos; ou velho, caso contrário.
+
+# Programa 4.2 - Carro novo ou velho, dependendo da idade.
+
+idade = int(input("Digite a idade do seu carro: "))
+if idade <= 3:
+    print("Seu carro é novo")
+if idade > 3:
+    print("Seu carro é velho")
