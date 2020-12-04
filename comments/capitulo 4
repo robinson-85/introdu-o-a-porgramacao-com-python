@@ -73,7 +73,9 @@ A vantagem de usar else é deixar os programas mais claros, uma vez que podemos
 expressar o que fazer caso a condição especificada em if seja falsa. A linha 
 2 só é executada se a condição idade <= 3 for falsa.
 
-4.3 Estruturas aninhadas 
+4.3 Estruturas Aninhadas 
+
+
 
 
 
